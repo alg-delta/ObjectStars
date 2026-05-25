@@ -1,0 +1,146 @@
+body {
+	background-image: url(img/background.png);
+	background-size: cover;
+	
+}
+
+.header {
+	display: flex; /* в рядок */
+	align-items: centeter;
+}
+
+.menu {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-family: Vendara;
+	
+}
+
+.logo {
+	margin-right: 30px;
+}
+
+.menu-btn {
+	display: block;
+	padding-left: 5px;
+    padding-right:5px;
+	color:white;
+	font-size:25px;
+	text-decoration: none;
+	transition:all 1s;
+}
+.menu-btn:hover{
+	color:white;
+	transform:scale(1.2);
+}
+/* !-- головна сторінка --> */
+.picture{
+float:right;
+border: 10px solid forestgreen;
+}
+
+.main {
+	width:1000px;
+	margin-left: auto;
+	margin-right: auto;
+    margin-top: 100px;
+}
+
+.title {
+	color: blue;
+	font-size: 45px;
+font-family: comic sans ms;
+}
+
+.subtitle {
+	font-family:georgia;
+	color:white;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+.apple{ 
+width: 140px;
+height: 60px;
+font-size: 18px; 
+border-radius: 6px;
+background-color:White;
+border: 4px double blue;
+}
+.apple a{
+	text-decoration:none;
+	color:purple
+}
+
+.apple:hover {
+	border: 4px double white;
+	background-color: transparent; 
+}
+
+.gold{
+	float:left;
+}
+
+.orange{
+	color:yellow;
+}
+
+.lemon{
+color:white;
+font-family:comic sans ms; 
+}
+
+.cupcake{
+	color:white;
+	font-family:comic sans ms;
+}
+
+.grapefruit{
+color:WHite;
+font-family:comic sans ms;
+}
+
+.shop {
+	text-align: center;
+	list-style:none;
+}
+
+.money {
+	list-style: none;
+}
+
+.tovars-title{ color:WHITE;
+font-family:comic sans ms;
+font-style: italic;
+}
+.name { color:white;
+font-family:comic sans ms;
+letter-spacing: 2px;
+font-style: bold;
+}
+
+.price { color:indigo;
+font-family:Courier New;
+}
+.shake:hover { 
+  animation: shake 0.5s ease-in-out infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(0, 0); }
+  20% { transform: translate(-5px, 0); }
+  40% { transform: translate(5px, 0); }
+  60% { transform: translate(-5px, 0); }
+  80% { transform: translate(5px, 0); }
+  100% { transform: translate(0, 0); }
+}
+
+.robot {
+	transition: all 0.5s;
+}
+
+.robot:hover {
+	transform: rotate(10000turn);
+}
